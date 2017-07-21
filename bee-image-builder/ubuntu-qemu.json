@@ -37,7 +37,7 @@
             "ssh_username": "{{ user `ssh_username` }}",
             "ssh_wait_timeout": "10000s",
             "vm_name": "{{ user `vm_name` }}",
-	    "accelerator": "kvm",
+	    "accelerator": "tcg",
             "qemuargs": [
                 [ "-m", "{{ user `memory` }}" ],
                 [ "-smp", "cpus={{ user `cpus`}}"]
