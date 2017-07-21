@@ -11,7 +11,7 @@ class Host(object):
         self.__gid = os.getgid()
         self.__host_name = host_name
         self.__ssh_port = ssh_port
-        self.__kvm = True
+        self.__kvm = False
 
         self.__vm = ""
         self.__vm_monitor = ""
