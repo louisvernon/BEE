@@ -73,7 +73,7 @@ class BeeVM(object):
         self.__host = Host(host)
 
         # QEMU
-        self.__kvm = True
+        self.__kvm = False
         self.__hypervisor = QEMU(host, "qemu-system-x86_64", self.__kvm)
 
         # Job Configuration
