@@ -7,7 +7,7 @@
     "iso_url": "http://releases.ubuntu.com/14.04/ubuntu-14.04.5-server-amd64.iso",
     "iso_checksum": "dd54dc8cfc2a655053d19813c2f9aa9f",
     "iso_checksum_type": "md5",
-    "memory": "8192",
+    "memory": "3072",
     "preseed" : "preseed.cfg",
     "version" : "0.1.0",
     "boot_command_prefix": "<esc><esc><enter><wait>",
